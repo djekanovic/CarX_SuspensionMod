@@ -2,115 +2,150 @@
 
 ![Preview](assets/SuspensionMod_1.gif)
 
-A KSL native mod for CarX Drift Racing Online that gives you full real-time control over your car's suspension. Raise and lower individual wheels, bounce with the Lowrider preset, or rock with Wiggle — all while driving.
-
-> [!NOTE]
-> Download and install [KSL](https://github.com/trbflxr/ksl) before installing this mod.
-
----
-
-## Usage
-
-### Default keybinds
-
-![Keybinds](assets/leftalt.png)
-
-| Action | Default |
-|---|---|
-| Toggle UI | Left Alt |
-| Raise | Q |
-| Lower | E |
-| Jump | Space |
-
-Click any keybind button in the UI and press the desired key or controller button to rebind it. Controller buttons (JoyBtn 0–19) are fully supported.
-
----
-
-### Opening the menu
-Press **Left Alt** to toggle the mod window. The key can be rebound in the **KEYBINDS** section of the UI.
-
----
-
-### Wheel targeting
-
-Select which wheels to affect before using Raise / Lower or Jump.
-
-| Selection | Wheels affected |
-|---|---|
-| FRONT | Front Left + Front Right |
-| BACK | Rear Left + Rear Right |
-| LEFT | Front Left + Rear Left |
-| RIGHT | Front Right + Rear Right |
-| FRONT + LEFT | Front Left only |
-| FRONT + RIGHT | Front Right only |
-| BACK + LEFT | Rear Left only |
-| BACK + RIGHT | Rear Right only |
-| FRONT + BACK | All 4 wheels |
-
-When both a row (Front/Back) and a column (Left/Right) are active, only the intersection is targeted. Multiple corners can be combined freely.
-
----
-
-### Raise / Lower
-
-Hold the bound key to continuously adjust the targeted wheels up or down. The **Raise Speed** setting controls how much the spring changes per frame.
-
-![Raise Lower](assets/SuspensionMod_2.gif)
-
----
-
-### Jump
-
-Press the Jump key for a quick suspension kick — the targeted wheels instantly extend to the **Jump Height** value, then auto-restore to stock after a short moment.
-
----
-
-### Presets
-
-![Presets](assets/SuspensionMod_3.gif)
-
-| Preset | Effect |
-|---|---|
-| **LOWRIDER** | Continuously bounces front wheels between a raised position and stock (~3 s cycle) |
-| **WIGGLE** | Alternates all 4 wheels left-right at a fast interval for a rolling effect |
-
-Only one preset can be active at a time. Enabling one automatically stops the other.
-
----
-
-### Spring settings
-
-| Setting | Description |
-|---|---|
-| **Raise Speed** | Amount the spring changes per frame while holding Raise / Lower |
-| **Jump Height** | Target spring length when Jump is triggered |
-| **Min (0 = stock)** | Floor limit — `0` uses the car's original stock suspension as the minimum |
-| **Max Limit** | Ceiling limit for spring extension |
-
-All values can be adjusted via slider or by typing directly into the number field.
-
----
-
-## Features
-
-- **Per-wheel targeting** — control Front, Back, Left, Right, or combine them to target individual corners (e.g. Front + Left = FL only)
-- **Raise / Lower** — hold a key to continuously raise or lower the targeted wheels
-- **Jump** — instantly extend suspension for a quick hop, then auto-restore
-- **Lowrider preset** — bounces front wheels between a raised position and stock (~3 s cycle)
-- **Wiggle preset** — rocks all 4 wheels left-right in a rhythmic cycle
-- **Restore Suspension** — one-click restore to the original stock values
-- **Joystick support** — all keybinds can be mapped to controller buttons (JoyBtn 0–19)
-- **Sliders + text input** — fine-tune all spring values with sliders or by typing exact values
-- **Persistent settings** — all values and keybinds are saved between sessions
+Real-time suspension control for CarX Drift Racing Online. Raise and lower individual wheels, bounce with the Lowrider preset, or rock with Wiggle — all while driving.
 
 ---
 
 ## Installation
 
-1. Install [KSL](https://github.com/trbflxr/ksl)
-2. Download the latest `SuspensionMod_win.zip` from [Releases](../../releases)
-3. Extract `SuspensionMod.ksm` into your `kino/mods/` folder
-4. Launch the game
+1. Download `SuspensionMod_win.zip` from [**Releases**](../../releases/latest)
+2. Extract `SuspensionMod.ksm` into your `kino/mods/` folder
+3. Launch the game
+
+**Where is `kino/mods/`?**
+```
+C:\Program Files (x86)\Steam\steamapps\common\CarX Drift Racing Online\kino\mods\
+```
+
+---
+
+## Controls
+
+Press **Left Alt** to open the mod window. All keys can be rebound inside the UI.
+
+### Default keybinds
+
+![Keybinds](assets/leftalt.png)
+
+| Action | Default | Notes |
+|---|---|---|
+| Toggle UI | Left Alt | Cannot be unbound |
+| Raise | Q | Hold to raise targeted wheels |
+| Lower | E | Hold to lower targeted wheels |
+| Jump | Space | Quick hop, auto-restores |
+| Jump Left | — | Optional direct-side jump |
+| Jump Right | — | Optional direct-side jump |
+| Jump Front | — | Optional direct-row jump |
+| Jump Back | — | Optional direct-row jump |
+
+> Controller buttons are fully supported. Click any keybind button in the UI, then press a key or controller button to rebind. Press **×** to clear a bind.
+
+---
+
+## Wheel Targeting
+
+Choose which wheels to affect before using Raise / Lower or Jump.
+
+| Selection | Wheels affected |
+|---|---|
+| FRONT | FL + FR |
+| BACK | RL + RR |
+| LEFT | FL + RL |
+| RIGHT | FR + RR |
+| FRONT + BACK | All 4 |
+| FRONT + LEFT | FL only |
+| FRONT + RIGHT | FR only |
+| BACK + LEFT | RL only |
+| BACK + RIGHT | RR only |
+
+Combining a row and a column targets only the intersection (e.g. FRONT + LEFT = Front Left only).
+
+---
+
+## Presets
+
+![Presets](assets/SuspensionMod_3.gif)
+
+| Preset | Effect |
+|---|---|
+| **LOWRIDER** | Bounces front wheels between raised and stock on a ~3 s cycle |
+| **WIGGLE** | Rocks all 4 wheels left-right in a fast rhythm |
+
+Only one preset can be active at a time. Switching cars while a preset is active stops it safely.
+
+---
+
+## Jump
+
+Press the Jump key for a quick suspension kick. The targeted wheels extend to the **Jump Height** value and auto-restore to stock after a short moment.
+
+**Jump Left / Right / Front / Back** are optional keybinds that bypass the UI wheel selection and always jump that specific side or row — useful for binding to controller buttons.
+
+---
+
+## Spring Settings
+
+| Setting | Description |
+|---|---|
+| **Raise Speed** | How much the spring changes per frame while holding Raise / Lower |
+| **Jump Height** | Target spring length when Jump fires |
+| **Min (0 = stock)** | Floor limit — `0` keeps the car's original stock value as the minimum |
+| **Max Limit** | Ceiling for spring extension |
+
+Adjust with the slider or type an exact value directly into the field.
+
+---
+
+## Restore Suspension
+
+The **Restore Suspension** button resets all wheels back to the stock values captured when you loaded in. Use this after manually adjusting springs or stopping a preset.
+
+---
+
+## Updates
+
+When a newer version is available, a green **Update available** banner appears at the bottom of the mod window. Click it to open the releases page.
+
+---
+
+## Features
+
+- Per-wheel targeting with row + column intersection logic
+- Hold Raise / Lower for smooth continuous adjustment
+- Jump with auto-restore
+- Jump Left / Right / Front / Back bypass UI selection for direct side/row jumps
+- Lowrider and Wiggle presets with safe car-swap detection
+- One-click Restore Suspension
+- Controller support — scans all 8 joystick slots (Xbox One, DirectInput, etc.)
+- Rebind all keys via in-game UI; × button to clear any bind
+- In-game update notifications
+- Sliders + text fields for all spring values
+- Settings and keybinds persist between sessions
+
+---
+
+## Changelog
+
+### v1.2.2
+- Added Jump Left / Right / Front / Back keybinds
+- Improved controller detection — scans all 8 joystick slots (fixes Xbox One / DirectInput)
+- Fixed Lowrider / Wiggle using stale values after switching cars in MP lobby
+- Fixed preset restore not returning to correct stock values on some cars
+- Added in-game update notification banner
+- Toggle UI can no longer be unbound
+- Added × button per keybind row for quick clearing
+- Duplicate keybinds now auto-cleared on reassign
+
+### v1.2.1
+- Preset stability fixes
+- Minor UI polish
+
+### v1.2.0
+- Added Lowrider and Wiggle presets
+- Added Left / Right wheel targeting
+- Redesigned UI with styled sections
+- Added joystick / controller keybind support
+- Jump now auto-restores after a short delay
 
 ---
 
