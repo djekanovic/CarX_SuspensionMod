@@ -13,11 +13,11 @@ A KSL native mod for CarX Drift Racing Online that gives you full real-time cont
 
 ### Default keybinds
 
-![Keybinds](assets/keybind.png)
+![Keybinds](assets/leftalt.png)
 
 | Action | Default |
 |---|---|
-| Toggle UI | \` (key above Tab) |
+| Toggle UI | Left Alt |
 | Raise | Q |
 | Lower | E |
 | Jump | Space |
@@ -27,7 +27,7 @@ Click any keybind button in the UI and press the desired key or controller butto
 ---
 
 ### Opening the menu
-Press **\`** (the key above Tab, left of `1`) to toggle the mod window. The key can be rebound in the **KEYBINDS** section of the UI.
+Press **Left Alt** to toggle the mod window. The key can be rebound in the **KEYBINDS** section of the UI.
 
 ---
 
