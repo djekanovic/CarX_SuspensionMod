@@ -9,33 +9,25 @@ A KSL native mod for CarX Drift Racing Online that gives you full real-time cont
 
 ---
 
-## Features
-
-- **Per-wheel targeting** — control Front, Back, Left, Right, or combine them to target individual corners (e.g. Front + Left = FL only)
-- **Raise / Lower** — hold a key to continuously raise or lower the targeted wheels
-- **Jump** — instantly extend suspension for a quick hop, then auto-restore
-- **Lowrider preset** — bounces front wheels between a raised position and stock (~3 s cycle)
-- **Wiggle preset** — rocks all 4 wheels left-right in a rhythmic cycle
-- **Restore Suspension** — one-click restore to the original stock values
-- **Joystick support** — all keybinds can be mapped to controller buttons (JoyBtn 0–19)
-- **Sliders + text input** — fine-tune all spring values with sliders or by typing exact values
-- **Persistent settings** — all values and keybinds are saved between sessions
-
----
-
-## Installation
-
-1. Install [KSL](https://github.com/trbflxr/ksl)
-2. Download the latest `SuspensionMod_win.zip` from [Releases](../../releases)
-3. Extract `SuspensionMod.ksm` into your `kino/mods/` folder
-4. Launch the game
-
----
-
 ## Usage
 
+### Default keybinds
+
+![Keybinds](assets/keybind.png)
+
+| Action | Default |
+|---|---|
+| Toggle UI | \` (key above Tab) |
+| Raise | Q |
+| Lower | E |
+| Jump | Space |
+
+Click any keybind button in the UI and press the desired key or controller button to rebind it. Controller buttons (JoyBtn 0–19) are fully supported.
+
+---
+
 ### Opening the menu
-Press **\` (BackQuote)** by default to toggle the mod window. The key can be rebound in the **KEYBINDS** section of the UI.
+Press **\`** (the key above Tab, left of `1`) to toggle the mod window. The key can be rebound in the **KEYBINDS** section of the UI.
 
 ---
 
@@ -99,16 +91,26 @@ All values can be adjusted via slider or by typing directly into the number fiel
 
 ---
 
-### Default keybinds
+## Features
 
-| Action | Default |
-|---|---|
-| Toggle UI | \` (BackQuote) |
-| Raise | Q |
-| Lower | E |
-| Jump | Space |
+- **Per-wheel targeting** — control Front, Back, Left, Right, or combine them to target individual corners (e.g. Front + Left = FL only)
+- **Raise / Lower** — hold a key to continuously raise or lower the targeted wheels
+- **Jump** — instantly extend suspension for a quick hop, then auto-restore
+- **Lowrider preset** — bounces front wheels between a raised position and stock (~3 s cycle)
+- **Wiggle preset** — rocks all 4 wheels left-right in a rhythmic cycle
+- **Restore Suspension** — one-click restore to the original stock values
+- **Joystick support** — all keybinds can be mapped to controller buttons (JoyBtn 0–19)
+- **Sliders + text input** — fine-tune all spring values with sliders or by typing exact values
+- **Persistent settings** — all values and keybinds are saved between sessions
 
-Click any keybind button in the UI and press the desired key or controller button to rebind it. Controller buttons (JoyBtn 0–19) are fully supported.
+---
+
+## Installation
+
+1. Install [KSL](https://github.com/trbflxr/ksl)
+2. Download the latest `SuspensionMod_win.zip` from [Releases](../../releases)
+3. Extract `SuspensionMod.ksm` into your `kino/mods/` folder
+4. Launch the game
 
 ---
 
