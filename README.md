@@ -126,6 +126,12 @@ When a newer version is available, a green **Update available** banner appears a
 
 ## Changelog
 
+### v1.2.3
+- Better controller keybind support — shows a reconnect hint when no controllers are detected during capture
+- Fixed jump restoring wheels to wrong height after switching cars
+- Fixed raise / lower using the wrong floor after switching cars
+- General suspension state stability improvements
+
 ### v1.2.2
 - Added Jump Left / Right / Front / Back keybinds
 - Improved controller detection — scans all 8 joystick slots (fixes Xbox One / DirectInput)
