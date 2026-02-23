@@ -126,6 +126,9 @@ When a newer version is available, a green **Update available** banner appears a
 
 ## Changelog
 
+### v1.2.4
+- Hotfix: version bump to trigger update notification for users on v1.2.2
+
 ### v1.2.3
 - Better controller keybind support — shows a reconnect hint when no controllers are detected during capture
 - Fixed jump restoring wheels to wrong height after switching cars
