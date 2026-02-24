@@ -4,6 +4,8 @@
 
 Real-time suspension control for CarX Drift Racing Online. Raise and lower individual wheels, bounce with the Lowrider preset, or rock with Wiggle — all while driving.
 
+![UI Overview](assets/releasev1.2.6.png)
+
 ---
 
 ## Installation
