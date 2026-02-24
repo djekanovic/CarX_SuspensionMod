@@ -96,9 +96,15 @@ Adjust with the slider or type an exact value directly into the field.
 
 ---
 
-## Restore Suspension
+## Save Car Settings
 
-The **Restore Suspension** button resets all wheels back to the stock values captured when you loaded in. Use this after manually adjusting springs or stopping a preset.
+Click **Save Car Settings** to store the current wheel heights and spring settings for the car you're driving. Next time you load into that car, the saved heights and settings are automatically applied.
+
+---
+
+## Reset Suspension
+
+The **Reset Suspension** button returns all wheels to their factory stock values and clears any saved wheel heights for the current car. Spring settings (speed, jump height, limits) are kept. Use this any time you want a clean slate.
 
 ---
 
@@ -110,12 +116,13 @@ When a newer version is available, a green **Update available** banner appears a
 
 ## Features
 
+- **Save Car Settings** — saves wheel heights + spring settings per car; auto-loaded on car change
+- **Reset Suspension** — restores factory stock values and clears saved wheel heights; spring settings preserved
 - Per-wheel targeting with row + column intersection logic
 - Hold Raise / Lower for smooth continuous adjustment
 - Jump with auto-restore
 - Jump Left / Right / Front / Back bypass UI selection for direct side/row jumps
 - Lowrider and Wiggle presets with safe car-swap detection
-- One-click Restore Suspension
 - Controller support — scans all 8 joystick slots (Xbox One, DirectInput, etc.)
 - Rebind all keys via in-game UI; × button to clear any bind
 - In-game update notifications
@@ -125,6 +132,11 @@ When a newer version is available, a green **Update available** banner appears a
 ---
 
 ## Changelog
+
+### v1.2.6
+- Added **Save Car Settings** — saves your wheel heights and spring settings per car; automatically loaded next time you drive that car
+- Added **Reset Suspension** (replaces "Restore Suspension") — returns wheels to factory stock and clears saved heights so the car resets cleanly; spring settings are preserved
+- Fixed pressing two directional jump keybinds at once (e.g. Jump Left + Jump Front) leaving one side permanently extended
 
 ### v1.2.5
 - Fixed suspension staying extended when jump key is pressed quickly more than once
