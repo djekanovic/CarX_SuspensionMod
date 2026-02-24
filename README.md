@@ -2,7 +2,7 @@
 
 ![Preview](assets/SuspensionMod_1.gif)
 
-Real-time suspension control for CarX Drift Racing Online. Raise and lower individual wheels, bounce with the Lowrider preset, or rock with Wiggle — all while driving.
+CarX Suspension Mod that is significantly improved from the previously available mods, firstly, it doesn't crash the game, additionaly the UI is simplified and modernized. Binding the Joystick buttons and being able to save settings for each car are some of the features added to this mod. Enjoy 💯
 
 ![UI Overview](assets/releasev1.2.6.png)
 
