@@ -126,6 +126,10 @@ When a newer version is available, a green **Update available** banner appears a
 
 ## Changelog
 
+### v1.2.5
+- Fixed suspension staying extended when jump key is pressed quickly more than once
+- Fixed pressing two directional jump keybinds simultaneously leaving one side permanently extended
+
 ### v1.2.4
 - Hotfix: version bump to trigger update notification for users on v1.2.2
 
