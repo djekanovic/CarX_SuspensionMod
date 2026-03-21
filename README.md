@@ -1,11 +1,5 @@
 # Suspension Mod for CarX Drift Racing Online
 
-> ## ⚠️ SUSPENSION MOD IS CHANGED TO PRIVATE ONLY
->
-> **SLICK Team** has free access.
->
-> For team or solo access — DM **sc0rpio_** on Discord.
-
 ![Preview](assets/SuspensionMod_1.gif)
 
 CarX Suspension Mod that is significantly improved from the previously available mods, firstly, it doesn't crash the game, additionaly the UI is simplified and modernized. Binding the Joystick buttons and being able to save settings for each car are some of the features added to this mod. Enjoy 💯
@@ -140,6 +134,12 @@ When a newer version is available, a green **Update available** banner appears a
 ---
 
 ## Changelog
+
+### v1.2.8
+- Mod is public again — no access restriction
+
+### v1.2.7
+- Mod temporarily locked to private access (Discord-only)
 
 ### v1.2.6
 - Added **Save Car Settings** — saves your wheel heights and spring settings per car; automatically loaded next time you drive that car
